@@ -1,7 +1,33 @@
-# Vue 3 + Vite
+# Vue 3 + Vite + Element Plus + Vitest (Browser Mode)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This guide will help you set up and run tests for this project, including browser-based tests using Playwright and Chromium.
 
-## Recommended IDE Setup
+## Prerequisites
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+## Reproduction Steps
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Install Playwright and Chromium:**
+   ```sh
+   npm install --save-dev playwright
+   npx playwright install chromium
+   ```
+
+3. **Run all tests in headless browser mode (recommended for full coverage):**
+    ```sh
+    npm run test:browser
+    ```
+    - This will run Vitest in browser mode using Playwright's headless Chromium.
+    - Test reports will be generated as configured in the project.
+    - And you can find the error process is undefined from "/packages/components/tooltip/src/content.vue:94:2".
+
+
+Reference error log:
+

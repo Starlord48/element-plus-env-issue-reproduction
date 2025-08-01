@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test:ui": "vitest --ui",
+    "test:browser": "vitest --browser",
     "preview": "vite preview"
   },
   "dependencies": {
