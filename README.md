@@ -31,3 +31,15 @@ This guide will help you set up and run tests for this project, including browse
 
 Reference error log:
 
+renders and hides Element Plus el-tooltip content (coverage for content.vue:94)
+ReferenceError: process is not defined
+ - /packages/components/tooltip/src/content.vue:94:2
+ - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js:391:27
+ - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js:1648:4
+ - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js:1493:28
+ - /packages/components/tooltip/src/content.vue:107:9
+ - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js:391:27
+ - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js:1648:4
+ - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js:1493:28
+ - /node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps/element-plus.js?v=64a3e8c4:19519:15
+ - /node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:692:12
