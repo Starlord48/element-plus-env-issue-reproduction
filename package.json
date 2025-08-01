@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test:ui": "vitest --ui",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "element-plus": "^2.10.4",
+    "jsdom": "^26.1.0",
+    "playwright": "^1.54.1",
+    "vite": "^3.0.7",
+    "vitest": "^3.2.4"
+  }
+}
